@@ -1,10 +1,15 @@
 import streamlit as st
 from fpdf import FPDF
 from huggingface_hub import InferenceClient
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv("API_KEY")
 
 client = InferenceClient(
     "mistralai/Mistral-Nemo-Instruct-2407",
-    token=API_KEY,
+    token=api_key,
 )
 
 def sanitize_text(text):
