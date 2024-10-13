@@ -1,0 +1,4 @@
+streamlit
+fpdf
+huggingface_hub
+re
