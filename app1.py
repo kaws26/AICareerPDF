@@ -4,7 +4,7 @@ from huggingface_hub import InferenceClient
 
 client = InferenceClient(
     "mistralai/Mistral-Nemo-Instruct-2407",
-    token="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",
+    token=API_KEY,
 )
 
 def sanitize_text(text):
