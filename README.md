@@ -1,7 +1,3 @@
-Here’s a professional and comprehensive README file for your GitHub repository:
-
----
-
 # AICareerPDF - Personalized Career Recommendation Report Generator
 
 AICareerPDF is a unique project designed to generate personalized career recommendation reports in PDF format based on individual student interests and aptitudes. Developed using advanced generative AI models from Hugging Face, AICareerPDF aims to provide insightful and transformative career suggestions, enabling students to make informed career choices.
